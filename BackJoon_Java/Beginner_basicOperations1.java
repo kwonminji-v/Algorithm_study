@@ -3,7 +3,7 @@ package BackJoon_Java;
 import java.util.Scanner;
 
 
-public class Begginer_basicOperations1 {
+public class Beginner_basicOperations1 {
 
 	public static void main(String[] args) {
 

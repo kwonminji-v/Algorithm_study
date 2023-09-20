@@ -3,7 +3,7 @@ package BackJoon_Java;
 import java.util.Scanner;
 
 
-public class Begginer_Condition1 {
+public class Beginner_Condition1 {
 
 		public static void main(String[] args) {
 			
