@@ -9,7 +9,6 @@ public class Beginner_Input {
 		
 		System.out.println(answer);
 		System.out.println(userName);
-	
 	}
 
 }
