@@ -1,4 +1,4 @@
-package BackJoon_Java;
+package BackJoon_beginner_Java;
 
 public class Beginner_DrawinSprout {
 
