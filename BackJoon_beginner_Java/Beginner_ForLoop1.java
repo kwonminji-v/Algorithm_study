@@ -11,7 +11,7 @@ public class Beginner_ForLoop1 {
 		
 		for (int i = 1; i <= star; i++) {
 			for (int j = 1; j <= i; j++) {
-				System.out.print("1");
+				System.out.print("*");
 			}
 			System.out.print("\n");
 		}
