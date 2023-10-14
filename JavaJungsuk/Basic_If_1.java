@@ -24,12 +24,12 @@ public class Basic_If_1 {
 		Scanner sc = new Scanner(System.in);
 		score = sc.nextInt();
 		
-		if(score >= 90) {
-			grade = 'A';			
-			if(score >=98) {
-				opt = '+';
-			} else if (score <94) {
-				opt = '-';
+		if(score >= 90) { //첫 조건식 score >=90의 참 거짓을 판명
+			grade = 'A';  // score로 입력된 값이 참일 때 grade에 A를 대입			
+			if(score >=98) {//(조건식 1과 조건식 2의 참 거짓을 판명)
+				opt = '+'; //조건식 2 score >=98이 참일 시 opt에 +를 대입
+			} else if (score <94) { //조건식 1은 참이나 조건식 2 score >=98이 거짓이고, 조건식 2 score<94의 참 거짓을 판명
+				opt = '-'; //조건식 2가 참일 시 opt에 -를 대입
 			}
 		} else if (score >=80) {
 			grade = 'B';
